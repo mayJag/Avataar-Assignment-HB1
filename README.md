@@ -5,9 +5,8 @@
 <p align="center"><img src="https://img.shields.io/badge/Python-3.8-blue" alt="shields"><img src="https://img.shields.io/badge/PyTorch-1.10+-orange" alt="shields"><img src="https://img.shields.io/badge/License-MIT-green" alt="shields"><img src="https://img.shields.io/badge/StableDiffusion-v1.5-purple" alt="shields"><img src="https://img.shields.io/badge/ControlNet-enabled-red" alt="shields"></p>
 
 <h2>Project Screenshots:</h2>
-
-<img src="https://imgur.com/D5Nevqd" alt="project-screenshot" width="512" height="512/">
-
+<img src="https://drive.google.com/uc?id=1aU4vApoWuNCVt-vOjFi9dUtfTpDClHkD" alt="project-screenshot" width="400" height="400" />
+<img src="https://drive.google.com/uc?id=1qDtSxQb5eBkWNITw4DaswVVjOkkvBw7e" alt="project-screenshot" width="400" height="400" />
   
   
 <h2>🧐 Features</h2>
