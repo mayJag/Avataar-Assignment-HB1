@@ -5,6 +5,7 @@
 <p align="center"><img src="https://img.shields.io/badge/Python-3.8-blue" alt="shields"><img src="https://img.shields.io/badge/PyTorch-1.10+-orange" alt="shields"><img src="https://img.shields.io/badge/License-MIT-green" alt="shields"><img src="https://img.shields.io/badge/StableDiffusion-v1.5-purple" alt="shields"><img src="https://img.shields.io/badge/ControlNet-enabled-red" alt="shields"></p>
 
 <h2>Project Screenshots:</h2>
+<h3>Prompt: room with chair</h3>
 <h3>With 25 Steps</h3>
 <img src="https://drive.google.com/uc?export=view&id=1aU4vApoWuNCVt-vOjFi9dUtfTpDClHkD" alt="project-screenshot" width="640" height="480" />
 <h3>With 25 vs 50 Steps</h3>
