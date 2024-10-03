@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Avataar Assignment HB1</h1>
 
-<p id="description">This project focuses on generating images using Stable Diffusion guided by ControlNet models. The goal is to produce the best possible images based on text prompts and depth maps explore aspect ratio differences and optimize latency. The analysis covers various aspects of image generation quality and performance.</p>
+<p id="description">This project is an in-depth exploration of text-to-image generation using Stable Diffusion guided by ControlNet models, leveraging depth maps as inputs. The objective is to generate high-quality, photo-realistic images based on textual descriptions (prompts), conditioned by depth maps. We also experiment with generating images of different aspect ratios and evaluate the effect of varying inference steps on both image quality and latency.</p>
 
 <p align="center"><img src="https://img.shields.io/badge/Python-3.8-blue" alt="shields"><img src="https://img.shields.io/badge/PyTorch-1.10+-orange" alt="shields"><img src="https://img.shields.io/badge/License-MIT-green" alt="shields"><img src="https://img.shields.io/badge/StableDiffusion-v1.5-purple" alt="shields"><img src="https://img.shields.io/badge/ControlNet-enabled-red" alt="shields"></p>
 
