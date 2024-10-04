@@ -152,7 +152,7 @@ python setup_model.py
 <p>4. Step 4: Run the image generation script</p>
 
 ```
-python generate_image.py --prompt "your prompt here" --depth_map "path_to_depth_map"
+python main.py --prompt "your prompt here" --depth_map "path_to_depth_map"
 ```
 
   
