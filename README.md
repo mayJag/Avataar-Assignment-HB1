@@ -10,7 +10,7 @@
 <img src="https://github.com/user-attachments/assets/eecdfc21-088a-453c-aeee-62d789e9002b" alt="project-screenshot"/>
 <h3>With 25 vs 50 Steps</h3>
 <img src="https://github.com/user-attachments/assets/37d5bbe5-fe1c-4a66-b4a0-4dbc38fcdd51" alt="project-screenshot"/>
-<h3>Depth Map Given vs Depth Map extracted from Generated image</h3>
+<h3>Depth Map Given vs Depth Map extracted from Generated image(used MSE and SSIM for Evaluating)</h3>
 <img src="https://github.com/user-attachments/assets/892d9611-a02d-41cb-821d-0149bb61f2d0" alt="project-screenshot"/>
 <h3>Experimented with different Schedulers(DDIM, LMS, PNDM)</h3>
 <img src="https://github.com/user-attachments/assets/86082701-2fd8-4dd3-9d5a-6fdf0581cbea" alt="project-screenshot"/>
@@ -23,7 +23,7 @@ Here're some of the project's best features:
 *   Comparison between square and non-square aspect ratios
 *   Latency analysis and optimization.
 *   ControlNet conditioning for better image guidance.
-*   MSE Evaluation: Calculates Mean Squared Error (MSE) between input and generated depth maps for accuracy measurement.
+*   MSE Evaluation: Calculates Mean Squared Error (MSE) and Structural Similarity Index(SSIM) between input and generated depth maps for accuracy measurement.
 *   Visual Analysis: Side-by-side comparison of generated images based on different conditions (aspect ratio number of steps).
 *   Error Handling: Handles different types of input depth maps (e.g. .npy .png) and ensures safe normalization.
 *   Experimentation with Different Schedulers: The project tests different inference schedulers like DDIM, PNDM, and others to optimize image quality and speed.
