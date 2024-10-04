@@ -13,7 +13,7 @@
 <h3>Depth Map Given vs Depth Map extracted from Generated image</h3>
 <img src="https://github.com/user-attachments/assets/eecdfc21-088a-453c-aeee-62d789e9002b" alt="project-screenshot"/>
 <h3>Experimented with different Schedulers(DDIM, LMS, PNDM)</h3>
-<img src="https://github.com/user-attachments/assets/11c2117b-5995-4786-868d-c1e6110f2256" alt="project-screenshot"/>
+<img src="https://github.com/user-attachments/assets/892d9611-a02d-41cb-821d-0149bb61f2d0" alt="project-screenshot"/>
   
 <h2>🧐 Features</h2>
 
