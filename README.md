@@ -5,12 +5,12 @@
 <p align="center"><img src="https://img.shields.io/badge/Python-3.8-blue" alt="shields"><img src="https://img.shields.io/badge/PyTorch-1.10+-orange" alt="shields"><img src="https://img.shields.io/badge/License-MIT-green" alt="shields"><img src="https://img.shields.io/badge/StableDiffusion-v1.5-purple" alt="shields"><img src="https://img.shields.io/badge/ControlNet-enabled-red" alt="shields"></p>
 
 <h2>Project Screenshots:</h2>
-<h3>Prompt: room with chair</h3>
+<h3>Prompt: Sunset view over a lake with mountains in the background</h3>
 <h3>With 25 Steps</h3>
 <img src="https://github.com/user-attachments/assets/bf1f8667-2b88-4ba5-b8e6-f606b4c06886" alt="project-screenshot" width="640" height="480" />
 <h3>With 25 vs 50 Steps</h3>
 <img src="https://github.com/user-attachments/assets/9971bd03-4752-4ba3-b163-0325f329c999" alt="project-screenshot"/>
-<h3>Depth Map Given vs Depth Map Generated from Generated image</h3>
+<h3>Depth Map Given vs Depth Map extracted from Generated image</h3>
 <img src="https://github.com/user-attachments/assets/888b4831-b416-40c4-b1a0-44ba03bc0f04" alt="project-screenshot"/>
 <h3>Experimented with different Schedulers(DDIM, LMS, PNDM)</h3>
 <img src="https://github.com/user-attachments/assets/11c2117b-5995-4786-868d-c1e6110f2256" alt="project-screenshot"/>
