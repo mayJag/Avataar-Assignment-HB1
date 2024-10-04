@@ -78,6 +78,8 @@ In general, with 25 steps, image generation is faster but may result in less sha
 
 <h2>Flow of the Code:</h2>
 
+<img src="https://github.com/user-attachments/assets/dffda710-02d9-4461-85e5-11243ae18bf4" alt="project-screenshot"/>
+
 <h3>User Input:</h3>
 
 The user is prompted to select a text prompt from a list of predefined descriptions.
