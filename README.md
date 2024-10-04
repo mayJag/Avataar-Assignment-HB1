@@ -11,9 +11,9 @@
 <h3>With 25 vs 50 Steps</h3>
 <img src="https://github.com/user-attachments/assets/37d5bbe5-fe1c-4a66-b4a0-4dbc38fcdd51" alt="project-screenshot"/>
 <h3>Depth Map Given vs Depth Map extracted from Generated image</h3>
-<img src="https://github.com/user-attachments/assets/eecdfc21-088a-453c-aeee-62d789e9002b" alt="project-screenshot"/>
-<h3>Experimented with different Schedulers(DDIM, LMS, PNDM)</h3>
 <img src="https://github.com/user-attachments/assets/892d9611-a02d-41cb-821d-0149bb61f2d0" alt="project-screenshot"/>
+<h3>Experimented with different Schedulers(DDIM, LMS, PNDM)</h3>
+<img src="https://github.com/user-attachments/assets/86082701-2fd8-4dd3-9d5a-6fdf0581cbea" alt="project-screenshot"/>
   
 <h2>🧐 Features</h2>
 
