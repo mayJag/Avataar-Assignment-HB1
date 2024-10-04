@@ -29,6 +29,23 @@ Here're some of the project's best features:
 *   Experimentation with Different Schedulers: The project tests different inference schedulers like DDIM, PNDM, and others to optimize image quality and speed.
 *   Visual Analysis: Displays side-by-side comparisons of generated images for different conditions and steps.
 
+<h2>Tasks- </h2>
+1. For the given metadata, i.e., text description and depths, generate the “best” possible output images.
+<img src="https://github.com/user-attachments/assets/fec0cfbc-9ffe-47f8-a604-dbd52e760738" alt="project-screenshot"/>
+2. Can we generate images of different aspect ratios (use “Metadata/No crop/2_nocrop.png” to test this out) using SD? Comment on the generation quality with respect to the aspect ratio of 1:1 for the same image.
+<img src="https://github.com/user-attachments/assets/7d049065-2ffb-4b38-bfb7-09b92c82cf40" alt="project-screenshot"/>
+3. What is the generation latency? Do you see some quick fixes to reduce it? Comment
+on how much latency you can reduce. What happens to the generation quality with
+reduced latency?
+<img src="https://github.com/user-attachments/assets/1bc6e6d7-48ee-4ecf-8cce-52e7c43dd5c7" alt="project-screenshot"/>
+In general, with 25 steps, image generation is faster but may result in less sharpness, softer details, and some artifacts. It’s suitable for quick results but lacks finer textures. With 50 steps, the image becomes more refined, with sharper details, better textures, and increased realism, though it takes longer to generate.
+<h3>Guidelines Followed - </h3>
+1. Used the given Checkpoint - https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5✅
+2. Kept seed fixed to "12345"✔✅
+3. For the generated outputs, verified that the generated depths are the same as the input depths using metrics MSE and SSIM.✅
+4. The pipeline/heuristic working consistently across all the images. Did not “manually” change any metadata.✅
+
+
 <h2>Flow of the Code:</h2>
 
 <h3>User Input:</h3>
