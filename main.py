@@ -7,6 +7,9 @@ import matplotlib.pyplot as plt
 from skimage.metrics import mean_squared_error
 import torchvision.transforms as transforms
 import cv2
+from skimage.metrics import structural_similarity as ssim
+import torch.nn.functional as F
+from torchvision import models
 
 # Safe normalization function for depth map
 def safe_normalize(depth_map):
@@ -285,6 +288,9 @@ if selected_depth_file.endswith("nocrop.png"):
         if input_depth_map_non_square_normalized.shape == generated_depth_map_non_square_normalized.shape:
             mse_value_non_square = mean_squared_error(input_depth_map_non_square_normalized, generated_depth_map_non_square_normalized)
             print(f"MSE (Non-Square): {mse_value_non_square:.4f}")
+            # SSIM Calculation for Non-Square
+            ssim_non_square = ssim(input_depth_map_non_square_normalized, generated_depth_map_non_square_normalized, data_range=generated_depth_map_non_square_normalized.max() - generated_depth_map_non_square_normalized.min())
+            print(f"SSIM (Non-Square): {ssim_non_square:.4f}")
 
 # Depth map comparison for square image
 generated_depth_map = estimate_depth("generated_image.png", midas_model, transform)
@@ -310,3 +316,6 @@ if generated_depth_map is not None:
     if input_depth_map_normalized.shape == generated_depth_map_normalized.shape:
         mse_value_square = mean_squared_error(input_depth_map_normalized, generated_depth_map_normalized)
         print(f"MSE (Square): {mse_value_square:.4f}")
+        # SSIM Calculation for Square
+        ssim_square = ssim(input_depth_map_normalized, generated_depth_map_normalized, data_range=generated_depth_map_normalized.max() - generated_depth_map_normalized.min())
+        print(f"SSIM (Square): {ssim_square:.4f}")
