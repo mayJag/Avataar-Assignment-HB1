@@ -37,11 +37,31 @@ Here're some of the project's best features:
 
 <img src="https://github.com/user-attachments/assets/7d049065-2ffb-4b38-bfb7-09b92c82cf40" alt="project-screenshot"/>
 
-3. What is the generation latency? Do you see some quick fixes to reduce it? Comment
-on how much latency you can reduce. What happens to the generation quality with
-reduced latency?
+For the square aspect ratio (1:1) image, the composition feels more centered and balanced, making it easier to focus on the main subject (the bed). The detail is more concentrated due to the uniform frame.
+
+In contrast, the non-square (5:3) image offers a wider field of view, capturing more of the environment and context but can make the main subject feel less prominent. The extra space might dilute focus on finer details compared to the square version.
+
+3. What is the generation latency? Do you see some quick fixes to reduce it? Comment on how much latency you can reduce. What happens to the generation quality with reduced latency?
 
 <img src="https://github.com/user-attachments/assets/1bc6e6d7-48ee-4ecf-8cce-52e7c43dd5c7" alt="project-screenshot"/>
+
+<h3>Steps taken to reduce Genration Latency-</h3>
+
+1. DDIM scheduler: Allows for faster image generation with fewer steps.
+
+2. Reduced inference steps (25): Minimizes the number of denoising steps.
+
+3. GPU usage: Accelerates model inference and depth map estimation.
+
+4. Fixed seed: Ensures consistent results without extra variability.
+
+5. Efficient image preprocessing: Resizing images to match model requirements.
+
+6. Disabling gradient computation: Saves unnecessary computation during depth map prediction.
+
+7. Pre-loading and mixed precision models: Ensures readiness and efficiency in model computation.
+
+<h3>Generation quality with reduced latency-</h3>
 
 In general, with 25 steps, image generation is faster but may result in less sharpness, softer details, and some artifacts. It’s suitable for quick results but lacks finer textures. With 50 steps, the image becomes more refined, with sharper details, better textures, and increased realism, though it takes longer to generate.
 
@@ -49,7 +69,7 @@ In general, with 25 steps, image generation is faster but may result in less sha
 
 1. Used the given Checkpoint - https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5✅
 
-2. Kept seed fixed to "12345"✔✅
+2. Kept seed fixed to "12345"✅
 
 3. For the generated outputs, verified that the generated depths are the same as the input depths using metrics MSE and SSIM.✅
 
