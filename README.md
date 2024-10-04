@@ -12,6 +12,8 @@
 <img src="https://drive.google.com/uc?export=view&id=1qDtSxQb5eBkWNITw4DaswVVjOkkvBw7e" alt="project-screenshot" width="640" height="480" />
 <h3>Depth Map Given vs Depth Map Generated from Generated image</h3>
 <img src="https://drive.google.com/uc?export=view&id=1sBUwDQmSeXy-PaMzw4gGGav0b5zhuByT" alt="project-screenshot" width="640" height="480" />
+<h3>Experimented with different Schedulers(DDIM, LMS, PNDM)</h3>
+![MixCollage-04-Oct-2024-10-49-AM-9162](https://github.com/user-attachments/assets/11c2117b-5995-4786-868d-c1e6110f2256)
   
 <h2>🧐 Features</h2>
 
