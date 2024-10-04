@@ -24,6 +24,8 @@ Here're some of the project's best features:
 *   MSE Evaluation: Calculates Mean Squared Error (MSE) between input and generated depth maps for accuracy measurement.
 *   Visual Analysis: Side-by-side comparison of generated images based on different conditions (aspect ratio number of steps).
 *   Error Handling: Handles different types of input depth maps (e.g. .npy .png) and ensures safe normalization.
+*   Experimentation with Different Schedulers: The project tests different inference schedulers like DDIM, PNDM, and others to optimize image quality and speed.
+*   Visual Analysis: Displays side-by-side comparisons of generated images for different conditions and steps.
 
 <h2>Flow of the Code:</h2>
 
