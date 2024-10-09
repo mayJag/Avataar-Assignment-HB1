@@ -31,6 +31,7 @@ Here're some of the project's best features:
 
 <h2>Tasks- </h2>
 1. For the given metadata, i.e., text description and depths, generate the “best” possible output images.
+
 <img src="https://github.com/user-attachments/assets/fec0cfbc-9ffe-47f8-a604-dbd52e760738" alt="project-screenshot"/>
 
 2. Can we generate images of different aspect ratios (use “Metadata/No crop/2_nocrop.png” to test this out) using SD? Comment on the generation quality with respect to the aspect ratio of 1:1 for the same image.
